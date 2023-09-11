@@ -189,7 +189,7 @@ public class Main {
         for (int x = 0; x < fieldSizeX; x++) {
             for (int y = 0; y < fieldSizeY; y++) {
 
-                int back = fieldSizeX - WIN_COUNT + 1;  // Диапозон в котором не произходит ниодной проверки
+                int back = fieldSizeX - WIN_COUNT + 1;  // Диапазон в котором не происходит ни одной проверки
                 if (x >= back && y >= back) break;
 
                 if (field[x][y] == c)
